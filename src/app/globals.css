@@ -1,0 +1,549 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* ------------------------------------------------------------------------
+   AGROPYME — Design System
+   Estética: "Industrial Editorial". Verde de campo profundo + ocre de
+   maquinaria + neutros tipo arena/cuero. Densidad tipográfica alta en
+   secciones técnicas, whitespace generoso en secciones narrativas.
+   ------------------------------------------------------------------------ */
+
+/* Dark mode por clase (next-themes) en vez de prefers-color-scheme:
+   el usuario debe poder alternar manualmente desde el header. */
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  /* --- Paleta agroindustrial ------------------------------------------ */
+  --color-forest-50: #eaf1ed;
+  --color-forest-100: #d3e3da;
+  --color-forest-200: #a8c8b8;
+  --color-forest-300: #78a993;
+  --color-forest-400: #4b8871;
+  --color-forest-500: #21634c;
+  --color-forest-600: #0f3d2e; /* primario */
+  --color-forest-700: #0c3126;
+  --color-forest-800: #09251d;
+  --color-forest-900: #061a14;
+  --color-forest-950: #03110d;
+
+  --color-ochre-100: #fbefcf;
+  --color-ochre-200: #f7e19a;
+  --color-ochre-300: #f2d060;
+  --color-ochre-400: #edc341;
+  --color-ochre-500: #e8b923; /* acento */
+  --color-ochre-600: #c99b12;
+  --color-ochre-700: #9e7a0e;
+  --color-ochre-800: #775b10;
+  --color-ochre-900: #56410e;
+
+  --color-burnt-100: #fbe3d6;
+  --color-burnt-200: #f5c3a9;
+  --color-burnt-300: #ee9c77;
+  --color-burnt-400: #d97446;
+  --color-burnt-500: #c6551f; /* acento secundario / CTA */
+  --color-burnt-600: #a6451a;
+  --color-burnt-700: #853716;
+  --color-burnt-800: #642a13;
+  --color-burnt-900: #4a200f;
+
+  --color-ink-950: #050505;
+  --color-ink-900: #0a0a0a; /* neutro oscuro */
+  --color-ink-800: #141414;
+  --color-ink-700: #1c1c1c;
+  --color-ink-600: #2a2a2a;
+  --color-ink-500: #3f3f3f;
+  --color-ink-400: #6b6b6b;
+  --color-ink-300: #9a9a9a;
+  --color-ink-200: #c9c7c2;
+  --color-ink-100: #e4e1db;
+  --color-bone: #f5f3ef; /* neutro claro */
+
+  /* Radii: sutiles, nunca circulares (salvo avatares/puntos). */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-3xl: 24px;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-highlight: var(--highlight);
+  --color-highlight-foreground: var(--highlight-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-surface: var(--surface);
+}
+
+/* --- Tokens semánticos ------------------------------------------------- */
+:root {
+  color-scheme: light;
+
+  --background: #f5f3ef;
+  --foreground: #1a1a1a;
+
+  --card: #fdfcf9;
+  --card-foreground: #1a1a1a;
+  --popover: #fdfcf9;
+  --popover-foreground: #1a1a1a;
+
+  --primary: #0f3d2e;
+  --primary-foreground: #f5f3ef;
+
+  --secondary: #ebe7df;
+  --secondary-foreground: #1a1a1a;
+
+  --muted: #eceae3;
+  --muted-foreground: #56534b;
+
+  --accent: #e8b923;
+  --accent-foreground: #1a1a1a;
+
+  --highlight: #c6551f;
+  --highlight-foreground: #fdfcf9;
+
+  --destructive: #b4331f;
+  --destructive-foreground: #fdfcf9;
+
+  --border: #ddd8cc;
+  --input: #d5cfc1;
+  --ring: #0f3d2e;
+  --surface: #efece4;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --background: #0a0a0a;
+  --foreground: #f5f3ef;
+
+  --card: #101211;
+  --card-foreground: #f5f3ef;
+  --popover: #101211;
+  --popover-foreground: #f5f3ef;
+
+  --primary: #e8b923;
+  --primary-foreground: #0a0a0a;
+
+  --secondary: #191b1a;
+  --secondary-foreground: #f5f3ef;
+
+  --muted: #171918;
+  --muted-foreground: #9d9d96;
+
+  --accent: #e8b923;
+  --accent-foreground: #0a0a0a;
+
+  --highlight: #c6551f;
+  --highlight-foreground: #fdfcf9;
+
+  --destructive: #e2604a;
+  --destructive-foreground: #0a0a0a;
+
+  --border: #242726;
+  --input: #2d312f;
+  --ring: #e8b923;
+  --surface: #131514;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "cv11", "ss01";
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  /* Foco visible siempre (requisito de accesibilidad) */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--color-ochre-500);
+    color: #0a0a0a;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Scrollbar discreta, acorde a la paeta */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in oklab, var(--muted-foreground) 45%, transparent);
+    border: 3px solid var(--background);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--muted-foreground) 75%, transparent);
+  }
+}
+
+/* --- Textura de grano global (muy sutil) ------------------------------ */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain-shift 8s steps(6) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain::after {
+    animation: none;
+  }
+}
+
+@keyframes grain-shift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-4%, 3%);
+  }
+  40% {
+    transform: translate(3%, -4%);
+  }
+  60% {
+    transform: translate(-3%, -3%);
+  }
+  80% {
+    transform: translate(4%, 4%);
+  }
+}
+
+/* --- Cursor custom (solo punteros finos con hover) -------------------- */
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  pointer-events: none;
+  border-radius: 999px;
+  opacity: 0;
+  will-change: transform;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--color-ochre-500);
+}
+
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 1px solid color-mix(in oklab, var(--foreground) 55%, transparent);
+  transition:
+    width 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+    height 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.cursor-ring[data-state="link"] {
+  width: 56px;
+  height: 56px;
+  background: color-mix(in oklab, var(--color-ochre-500) 22%, transparent);
+  border-color: var(--color-ochre-500);
+}
+
+.cursor-ring[data-state="view"] {
+  width: 84px;
+  height: 84px;
+  background: var(--color-ochre-500);
+  border-color: var(--color-ochre-500);
+}
+
+.cursor-ring[data-state="view"] ~ .cursor-label {
+  opacity: 1;
+}
+
+.cursor-label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 91;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #0a0a0a;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  html.has-custom-cursor,
+  html.has-custom-cursor a,
+  html.has-custom-cursor button,
+  html.has-custom-cursor [role="button"] {
+    cursor: none;
+  }
+  html.has-custom-cursor input,
+  html.has-custom-cursor textarea,
+  html.has-custom-cursor select {
+    cursor: text;
+  }
+}
+
+/* --- Utilidades compuestas -------------------------------------------- */
+.container-site {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  max-width: 88rem;
+}
+@media (min-width: 768px) {
+  .container-site {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Máscara de desvanecimiento para marquees */
+.mask-edge-x {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+}
+
+.mask-edge-y {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    #000 10%,
+    #000 90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    #000 10%,
+    #000 90%,
+    transparent
+  );
+}
+
+/* Marquee infinito: el track duplica el contenido y translada -50% */
+@keyframes marquee-x {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-x var(--marquee-duration, 38s) linear infinite;
+  will-change: transform;
+}
+.animate-marquee-reverse {
+  animation: marquee-x var(--marquee-duration, 38s) linear infinite reverse;
+  will-change: transform;
+}
+
+.marquee-group:hover .animate-marquee,
+.marquee-group:hover .animate-marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* Barrido de luz tipo "filo de tijera" en botones y cards */
+@keyframes shine-sweep {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(240%) skewX(-18deg);
+  }
+}
+
+.shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 45%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.85),
+    transparent
+  );
+  mix-blend-mode: overlay;
+  transform: translateX(-120%) skewX(-18deg);
+  pointer-events: none;
+}
+
+.group:hover .shine::before,
+.shine:hover::before {
+  animation: shine-sweep 0.85s cubic-bezier(0.3, 0.7, 0.3, 1);
+}
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1.02) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.14) translate3d(-1.5%, -1.5%, 0);
+  }
+}
+
+.animate-kenburns {
+  animation: kenburns 26s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+.animate-pulse-soft {
+  animation: pulse-soft 2.4s ease-in-out infinite;
+}
+
+/* Barra de progreso de scroll */
+.scroll-progress {
+  transform-origin: 0% 50%;
+  transform: scaleX(0);
+}
+
+/* Helpers tipográficos */
+.eyebrow {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Reveal inicial: si no hay JS (o antes de hidratar) el contenido es visible */
+.reveal-ready {
+  opacity: 0;
+  transform: translate3d(0, 26px, 0);
+}
+
+/* Skeleton screens */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--muted);
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklab, var(--foreground) 8%, transparent),
+    transparent
+  );
+  animation: shimmer 1.6s infinite;
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Barra de rango nativa, alineada al design system */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: var(--border);
+  border-radius: 999px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--primary);
+  border: 3px solid var(--background);
+  box-shadow: 0 0 0 1px var(--primary);
+  cursor: grab;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--primary);
+  border: 3px solid var(--background);
+  cursor: grab;
+}

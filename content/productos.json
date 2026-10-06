@@ -1,0 +1,974 @@
+{
+  "categories": [
+    {
+      "id": "esquiladoras",
+      "name": "Máquinas de esquilar",
+      "short": "Eléctricas, a batería y para toda escala de esquilado.",
+      "description": "Ovinos, alpacas y llamas. Unidades de cable y batería con motor de alta rotación y arranque suave.",
+      "image": "/media/cat-01.jpg",
+      "href": "/catalogo?categoria=esquiladoras"
+    },
+    {
+      "id": "tijeras-cuchillas",
+      "name": "Tijeras y cuchillas",
+      "short": "Acero al cromo-vanadio, filo que sostiene la jornada.",
+      "description": "Tijeras de esquilar, cuchillas de repuesto, peines y cortantes para peluquería canina y veterinaria.",
+      "image": "/media/cat-02.jpg",
+      "href": "/catalogo?categoria=tijeras-cuchillas"
+    },
+    {
+      "id": "lubricantes",
+      "name": "Lubricantes y aceites",
+      "short": "Enfriamiento y lubricación específica para filo.",
+      "description": "Aceites de corte, enfricantes y lubricantes que bajan la temperatura de la cuchilla y alargan su vida útil.",
+      "image": "/media/cat-03.jpg",
+      "href": "/catalogo?categoria=lubricantes"
+    },
+    {
+      "id": "repuestos",
+      "name": "Repuestos y accesorios",
+      "short": "Carmes, rodamientos, muelles, fundas y estuches.",
+      "description": "Repuesto original para mantener la máquina en el mismo estándar el día que sale de caja.",
+      "image": "/media/cat-04.jpg",
+      "href": "/catalogo?categoria=repuestos"
+    },
+    {
+      "id": "kits",
+      "name": "Kits y combos",
+      "short": "Todo lo necesario para arrancar, en una sola caja.",
+      "description": "Kits para el primer esquilador y combos de reposición para temporadas altas.",
+      "image": "/media/cat-05.jpg",
+      "href": "/catalogo?categoria=kits"
+    }
+  ],
+  "brands": [
+    "LISTER",
+    "HEINIGER",
+    "OSTER",
+    "ANDIS",
+    "BEIYUAN",
+    "LILI",
+    "OVEJA NEGRA",
+    "GTS",
+    "WAHL"
+  ],
+  "products": [
+    {
+      "slug": "esquiladora-lister-xtr",
+      "sku": "AGP-EQ-1001",
+      "name": "Esquiladora LISTER XTR",
+      "brand": "LISTER",
+      "category": "esquiladoras",
+      "price": 3240000,
+      "compareAt": 3690000,
+      "origin": "Reino Unido",
+      "shortDescription": "La referencia mundial en esquilado comercial: motor de alto torque y 2.600 rpm sostenidas.",
+      "description": "La LISTER XTR está pensada para jornadas largas: refrigeración por flujo de aire, armazón de aleación y un motor que mantiene las 2.600 rpm incluso bajo carga pesada. El cable de 8 m trabaja sobre una manga de resorte con gancho, de modo que el esquilador no carga con el peso del equipo. Adecuada para ovejas de cualquier raza y para centros de esquilado con más de 300 cabezas por día.",
+      "image": "/media/prod-01.jpg",
+      "gallery": [
+        "/media/prod-01.jpg",
+        "/media/feat-01.jpg",
+        "/media/feat-02.jpg"
+      ],
+      "badge": "Más vendido",
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 38,
+      "highlights": [
+        "Motor de alto torque, 2.600 rpm estables",
+        "Manga de resorte de 8 m con gancho de ceñir",
+        "Arranque suave que protege la cuchilla",
+        "Servicio técnico oficial en Buenos Aires"
+      ],
+      "specs": [
+        {
+          "label": "Potencia",
+          "value": "1.100 W"
+        },
+        {
+          "label": "Velocidad",
+          "value": "2.600 rpm"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V / 50 Hz"
+        },
+        {
+          "label": "Longitud de cable",
+          "value": "8 m + manga de resorte"
+        },
+        {
+          "label": "Peso del equipo",
+          "value": "5,4 kg"
+        },
+        {
+          "label": "Cuchilla incluida",
+          "value": "Lister 4-super"
+        },
+        {
+          "label": "Nivel sonoro",
+          "value": "78 dB(A)"
+        },
+        {
+          "label": "Grado de protección",
+          "value": "IPX4"
+        },
+        {
+          "label": "Garantía",
+          "value": "24 meses oficial"
+        }
+      ],
+      "includes": [
+        "Unidad motriz LISTER XTR",
+        "Cuchilla Lister 4-super montada",
+        "Manga de resorte de 8 m con gancho",
+        "Kit de arranque (peine y muelle)",
+        "Aceite lubricante 100 ml",
+        "Manual en español y ficha de mantenimiento"
+      ],
+      "downloads": [
+        {
+          "label": "Manual de usuario LISTER XTR",
+          "type": "PDF",
+          "size": "2,4 MB"
+        },
+        {
+          "label": "Ficha técnica",
+          "type": "PDF",
+          "size": "480 KB"
+        },
+        {
+          "label": "Guía de mantenimiento",
+          "type": "PDF",
+          "size": "1,1 MB"
+        }
+      ],
+      "related": [
+        "esquiladora-heiniger-saphir",
+        "cuchilla-lister-4-super",
+        "aceite-corte-heiniger-500",
+        "kit-esquilador-profesional"
+      ]
+    },
+    {
+      "slug": "esquiladora-heiniger-saphir",
+      "sku": "AGP-EQ-1002",
+      "name": "Esquiladora Heiniger Saphir Evo",
+      "brand": "HEINIGER",
+      "category": "esquiladoras",
+      "price": 2890000,
+      "origin": "Suiza",
+      "shortDescription": "Precisión suiza: motor encapsulado y vibración mínima para esquilado de alta exigencia.",
+      "description": "El conjunto motor-mano de la Saphir Evo trabaja con tolerancias de fabricación suizas: menos vibración, menos fatiga en la muñeca y un corte más parejo en pieles sensibles. Ideal para alpacas, llamas y camellos, donde el manejo fino importa tanto como la potencia.",
+      "image": "/media/prod-02.jpg",
+      "gallery": [
+        "/media/prod-02.jpg",
+        "/media/feat-03.jpg",
+        "/media/feat-01.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 24,
+      "highlights": [
+        "Motor encapsulado con aislación reforzada",
+        "Vibración 30 % menor que el promedio de categoría",
+        "Compatible con cuchillas Heiniger y Lister",
+        "Repuestos originales en stock permanente"
+      ],
+      "specs": [
+        {
+          "label": "Potencia",
+          "value": "950 W"
+        },
+        {
+          "label": "Velocidad",
+          "value": "2.500 rpm"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V / 50 Hz"
+        },
+        {
+          "label": "Peso del equipo",
+          "value": "4,8 kg"
+        },
+        {
+          "label": "Cuchilla incluida",
+          "value": "Heiniger S-20"
+        },
+        {
+          "label": "Garantía",
+          "value": "24 meses oficial"
+        }
+      ],
+      "includes": [
+        "Unidad motriz Saphir Evo",
+        "Cuchilla Heiniger S-20",
+        "Manga de resorte de 6 m",
+        "Aceite lubricante 100 ml",
+        "Manual en español"
+      ],
+      "downloads": [
+        {
+          "label": "Manual de usuario Saphir Evo",
+          "type": "PDF",
+          "size": "1,9 MB"
+        },
+        {
+          "label": "Ficha técnica",
+          "type": "PDF",
+          "size": "410 KB"
+        }
+      ],
+      "related": [
+        "esquiladora-lister-xtr",
+        "cuchilla-lister-4-super",
+        "repuesto-kit-carbones"
+      ]
+    },
+    {
+      "slug": "esquiladora-beiyuan-by88",
+      "sku": "AGP-EQ-1003",
+      "name": "Esquiladora Beiyuan BY-88 Batería",
+      "brand": "BEIYUAN",
+      "category": "esquiladoras",
+      "price": 1690000,
+      "compareAt": 1890000,
+      "origin": "China",
+      "shortDescription": "Libertad total: 4 horas de autonomía y carga rápida para campo sin toma de corriente.",
+      "description": "Diseñada para trabajar donde no hay luz: batería de litio de 21,6 V, 4 horas de autonomía real y carga completa en 120 minutos. El dock de carga entra en el mismo estuche rígido que protege la máquina durante el traslado.",
+      "image": "/media/prod-10.jpg",
+      "gallery": [
+        "/media/prod-10.jpg",
+        "/media/cat-01.jpg",
+        "/media/prod-11.jpg"
+      ],
+      "badge": "Nuevo",
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 17,
+      "highlights": [
+        "Autonomía de 4 h con uso continuo",
+        "Carga completa en 120 minutos",
+        "Indicador de batería en el cuerpo de la máquina",
+        "Estuche rígido con compartimento para cuchillas"
+      ],
+      "specs": [
+        {
+          "label": "Potencia",
+          "value": "800 W equivalentes"
+        },
+        {
+          "label": "Batería",
+          "value": "Li-ion 21,6 V · 4.000 mAh"
+        },
+        {
+          "label": "Autonomía",
+          "value": "4 horas"
+        },
+        {
+          "label": "Tiempo de carga",
+          "value": "120 minutos"
+        },
+        {
+          "label": "Peso con batería",
+          "value": "3,9 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "18 meses"
+        }
+      ],
+      "includes": [
+        "Esquiladora BY-88",
+        "2 baterías extraíbles",
+        "Dock de carga rápido",
+        "Cuchilla de acero con recubrimiento",
+        "Estuche rígido"
+      ],
+      "downloads": [
+        {
+          "label": "Manual de usuario BY-88",
+          "type": "PDF",
+          "size": "1,3 MB"
+        },
+        {
+          "label": "Hoja de seguridad de batería",
+          "type": "PDF",
+          "size": "620 KB"
+        }
+      ],
+      "related": [
+        "esquiladora-lister-xtr",
+        "kit-esquilador-profesional",
+        "repuesto-kit-carbones"
+      ]
+    },
+    {
+      "slug": "peladora-andis-emerge",
+      "sku": "AGP-RS-2001",
+      "name": "Peladora Andis eMERGE",
+      "brand": "ANDIS",
+      "category": "esquiladoras",
+      "price": 1980000,
+      "origin": "EE.UU.",
+      "shortDescription": "Rasurado profesional sin cable: batería de ión-litio y corte de 0,5 mm.",
+      "description": "La eMERGE combina dos unidades de corte con motor sin escobillas: silenciosa, fría al tacto y con suficiente fuerza para pelo denso de grandes animales. Se usa en palenques, clínicas veterinarias y peluquerías caninas de alta rotación.",
+      "image": "/media/prod-04.jpg",
+      "gallery": [
+        "/media/prod-04.jpg",
+        "/media/feat-02.jpg",
+        "/media/cat-05.jpg"
+      ],
+      "inStock": false,
+      "rating": 4.7,
+      "reviewCount": 31,
+      "highlights": [
+        "Motor sin escobillas: menos calor, más vida útil",
+        "Batería de 80 minutos de uso continuo",
+        "Corte desde 0,5 mm",
+        "Cuerpo antideslizante con empuñadura texturizada"
+      ],
+      "specs": [
+        {
+          "label": "Motor",
+          "value": "Brushless 120 V"
+        },
+        {
+          "label": "Autonomía",
+          "value": "80 minutos"
+        },
+        {
+          "label": "Corte mínimo",
+          "value": "0,5 mm"
+        },
+        {
+          "label": "Peso",
+          "value": "0,62 kg"
+        },
+        {
+          "label": "Cuchilla",
+          "value": "CeramicEdge 5FC"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 meses oficial"
+        }
+      ],
+      "includes": [
+        "Peladora eMERGE",
+        "Batería recargable y dock",
+        "Cuchilla CeramicEdge",
+        "Peines de 3, 6 y 10 mm",
+        "Estuche de viaje"
+      ],
+      "downloads": [
+        {
+          "label": "Manual Andis eMERGE",
+          "type": "PDF",
+          "size": "1,7 MB"
+        }
+      ],
+      "related": [
+        "cuchilla-andis-ultraedge-10",
+        "cuchilla-lili-ceramica",
+        "aceite-corte-heiniger-500"
+      ]
+    },
+    {
+      "slug": "tijera-oster-9-esquilar",
+      "sku": "AGP-TJ-3001",
+      "name": "Tijera de esquilar Oster 9″",
+      "brand": "OSTER",
+      "category": "tijeras-cuchillas",
+      "price": 385000,
+      "origin": "EE.UU.",
+      "shortDescription": "Tijera recta de 9 pulgadas para terminación de cuello, lomo y panza.",
+      "description": "Acero templado con mango ergonómico de doble anillo y tornillo de regulación de tensión. Pensada para el terminado fino después del paso de la máquina: abre y cierra sin esfuerzo durante toda la jornada.",
+      "image": "/media/prod-05.jpg",
+      "gallery": [
+        "/media/prod-05.jpg",
+        "/media/cat-02.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 22,
+      "highlights": [
+        "Acero inoxidable templado a mano",
+        "Tornillo de tensión regulable",
+        "Mango con anillo de silicona antideslizante",
+        "Afiliación disponible en taller propio"
+      ],
+      "specs": [
+        {
+          "label": "Largo",
+          "value": "9″ (23 cm)"
+        },
+        {
+          "label": "Material",
+          "value": "Acero inoxidable Japonés 440C"
+        },
+        {
+          "label": "Peso",
+          "value": "118 g"
+        },
+        {
+          "label": "Mango",
+          "value": "Offset, doble anillo"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 meses contra defecto de fábrica"
+        }
+      ],
+      "includes": [
+        "Tijera Oster 9″",
+        "Funda de cuero",
+        "Tornillo de repuesto"
+      ],
+      "downloads": [
+        {
+          "label": "Ficha técnica",
+          "type": "PDF",
+          "size": "320 KB"
+        }
+      ],
+      "related": [
+        "set-tijeras-teflon-6",
+        "afiladora-oveja-negra",
+        "cuchilla-lister-4-super"
+      ]
+    },
+    {
+      "slug": "set-tijeras-teflon-6",
+      "sku": "AGP-TJ-3002",
+      "name": "Set 4 tijeras Teflón 6″ + peine",
+      "brand": "OVEJA NEGRA",
+      "category": "tijeras-cuchillas",
+      "price": 268000,
+      "compareAt": 312000,
+      "origin": "Taiwán",
+      "shortDescription": "Cuatro alturas de corte en un solo set, con recubrimiento Teflón antidesgaste.",
+      "description": "El set de trabajo del esquilador: 4 tijeras de 6″ con distinto tipo de diente (4F, 5F, 7F y 10) para pasar de cuerpo a terminación sin detenerse. El recubrimiento Teflón reduce la fricción y facilita la limpieza de lanolina.",
+      "image": "/media/prod-11.jpg",
+      "gallery": [
+        "/media/prod-11.jpg",
+        "/media/cat-02.jpg",
+        "/media/cat-05.jpg"
+      ],
+      "badge": "Oferta",
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 46,
+      "highlights": [
+        "4 tijeras + peine de repuesto",
+        "Recubrimiento Teflón antidesgaste",
+        "Estuche organizador con cierre",
+        "Ideal para terminación y arreglo de ojos y entrededos"
+      ],
+      "specs": [
+        {
+          "label": "Unidades",
+          "value": "4 tijeras + 1 peine"
+        },
+        {
+          "label": "Largo",
+          "value": "6″ (15 cm)"
+        },
+        {
+          "label": "Dientes",
+          "value": "4F · 5F · 7F · 10"
+        },
+        {
+          "label": "Material",
+          "value": "Acero al cromo-vanadio"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 meses"
+        }
+      ],
+      "includes": [
+        "4 tijeras Teflón 6″",
+        "1 peine de repuesto",
+        "Estuche rígido organizador",
+        "Aceite de mantenimiento 30 ml"
+      ],
+      "downloads": [
+        {
+          "label": "Guía de afilado",
+          "type": "PDF",
+          "size": "740 KB"
+        }
+      ],
+      "related": [
+        "tijera-oster-9-esquilar",
+        "afiladora-oveja-negra",
+        "cuchilla-lili-ceramica"
+      ]
+    },
+    {
+      "slug": "cuchilla-lister-4-super",
+      "sku": "AGP-CU-4001",
+      "name": "Cuchilla Lister 4-super",
+      "brand": "LISTER",
+      "category": "tijeras-cuchillas",
+      "price": 189000,
+      "origin": "Reino Unido",
+      "shortDescription": "Cuchilla y peine de alta velocidad con tratamiento anti-desgaste.",
+      "description": "La cuchilla que soporta la jornada completa: dientes rectificados con tolerancia de 0,02 mm y tratamiento de superficie que retiene el aceite. Trabaja en todas las unidades LISTER y en la mayoría de los cabezales compatibles.",
+      "image": "/media/prod-03.jpg",
+      "gallery": [
+        "/media/prod-03.jpg",
+        "/media/feat-02.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 58,
+      "highlights": [
+        "Rectificado CNC con tolerancia de 0,02 mm",
+        "Compatible con LISTER XTR y Saphir",
+        "Retiene el aceite entre usos",
+        "Se afila hasta 6 veces sin perder desempeño"
+      ],
+      "specs": [
+        {
+          "label": "Tipo",
+          "value": "Cuchilla + peine 4-super"
+        },
+        {
+          "label": "Material",
+          "value": "Acero al cromo-vanadio"
+        },
+        {
+          "label": "Corte",
+          "value": "Alta velocidad"
+        },
+        {
+          "label": "Vida útil",
+          "value": "Hasta 6 afilados"
+        },
+        {
+          "label": "Garantía",
+          "value": "6 meses por defecto de rectificado"
+        }
+      ],
+      "includes": [
+        "Cuchilla Lister 4-super",
+        "Peine de repuesto",
+        "Fundector protector"
+      ],
+      "downloads": [
+        {
+          "label": "Ficha técnica",
+          "type": "PDF",
+          "size": "290 KB"
+        }
+      ],
+      "related": [
+        "esquiladora-lister-xtr",
+        "aceite-corte-heiniger-500",
+        "cuchilla-andis-ultraedge-10"
+      ]
+    },
+    {
+      "slug": "cuchilla-andis-ultraedge-10",
+      "sku": "AGP-CU-4002",
+      "name": "Cuchilla Andis UltraEdge #10",
+      "brand": "ANDIS",
+      "category": "tijeras-cuchillas",
+      "price": 132000,
+      "origin": "EE.UU.",
+      "shortDescription": "El estándar de la peluquería canina y veterinaria: corte a 1,5 mm.",
+      "description": "Diente rectificado y temple de carbono para trabajo continuo con animales de pelo grueso. Encaja en peladoras Andis, Oster y en cabezales compatibles del mercado.",
+      "image": "/media/prod-12.jpg",
+      "gallery": [
+        "/media/prod-12.jpg",
+        "/media/feat-02.jpg",
+        "/media/cat-02.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 64,
+      "highlights": [
+        "Corte estándar a 1,5 mm",
+        "Carbon hard steel con níquel",
+        "Compatible con Andis, Oster y Wahl",
+        "Se afila en taller propio en 48 h"
+      ],
+      "specs": [
+        {
+          "label": "Tipo",
+          "value": "UltraEdge #10"
+        },
+        {
+          "label": "Corte",
+          "value": "1,5 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Carbon hard steel"
+        },
+        {
+          "label": "Compatible",
+          "value": "Andis · Oster · Wahl"
+        },
+        {
+          "label": "Garantía",
+          "value": "6 meses"
+        }
+      ],
+      "includes": [
+        "Cuchilla UltraEdge #10",
+        "Protectores de dientes"
+      ],
+      "downloads": [
+        {
+          "label": "Ficha técnica",
+          "type": "PDF",
+          "size": "260 KB"
+        }
+      ],
+      "related": [
+        "peladora-andis-emerge",
+        "cuchilla-lili-ceramica",
+        "aceite-corte-heiniger-500"
+      ]
+    },
+    {
+      "slug": "cuchilla-lili-ceramica",
+      "sku": "AGP-CU-4003",
+      "name": "Cuchilla LILI con cortante cerámico",
+      "brand": "LILI",
+      "category": "tijeras-cuchillas",
+      "price": 98500,
+      "origin": "Taiwán",
+      "shortDescription": "El filo frío: cerámica que no transmite calor durante el corte prolongado.",
+      "description": "El cortante cerámico reduce hasta 40 % la temperatura de la hoja en sesiones largas, evitando irritaciones en piel sensible. Recomendada para peluquería canina y trabajos veterinarios de precisión.",
+      "image": "/media/cat-02.jpg",
+      "gallery": [
+        "/media/cat-02.jpg",
+        "/media/prod-12.jpg"
+      ],
+      "badge": "Últimas unidades",
+      "inStock": true,
+      "rating": 4.4,
+      "reviewCount": 29,
+      "highlights": [
+        "Cortante cerámico de baja transferencia térmica",
+        "Compatible con peladoras de goma estándar",
+        "Peso 25 % menor que el acero equivalente",
+        "Ideal para piel sensible"
+      ],
+      "specs": [
+        {
+          "label": "Tipo",
+          "value": "Cerámico #10 equivalente"
+        },
+        {
+          "label": "Corte",
+          "value": "1,5 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Cerámica + base de acero"
+        },
+        {
+          "label": "Garantía",
+          "value": "6 meses por rotura de fábrica"
+        }
+      ],
+      "includes": [
+        "Cuchilla LILI cerámica",
+        "Protectores de dientes"
+      ],
+      "downloads": [
+        {
+          "label": "Ficha técnica",
+          "type": "PDF",
+          "size": "240 KB"
+        }
+      ],
+      "related": [
+        "peladora-andis-emerge",
+        "cuchilla-andis-ultraedge-10"
+      ]
+    },
+    {
+      "slug": "aceite-corte-heiniger-500",
+      "sku": "AGP-LU-5001",
+      "name": "Aceite de corte Heiniger 500 ml",
+      "brand": "HEINIGER",
+      "category": "lubricantes",
+      "price": 64900,
+      "origin": "Suiza",
+      "shortDescription": "Enfriante y lubricante de cuchilla que baja la temperatura de trabajo.",
+      "description": "Aplicado a lo largo de la jornada, el aceite de corte evita la acumulación de lanamina entre los dientes, disipa el calor y reduce el desgaste del filo. Un litro rinde para aproximadamente 1.200 cabezas.",
+      "image": "/media/prod-06.jpg",
+      "gallery": [
+        "/media/prod-06.jpg",
+        "/media/cat-03.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 71,
+      "highlights": [
+        "Disipa calor y elimina lanamina",
+        "No deja residuo sobre la lana",
+        "Rendimiento: ~1.200 cabezas por litro",
+        "Apto para cuchillas de alta velocidad"
+      ],
+      "specs": [
+        {
+          "label": "Volumen",
+          "value": "500 ml"
+        },
+        {
+          "label": "Viscosidad",
+          "value": "ISO VG 22"
+        },
+        {
+          "label": "Rendimiento",
+          "value": "~1.200 cabezas / litro"
+        },
+        {
+          "label": "Presentación",
+          "value": "Botella con dosificador"
+        },
+        {
+          "label": "Garantía",
+          "value": "Sin vencimiento en envase cerrado"
+        }
+      ],
+      "includes": [
+        "Botella 500 ml",
+        "Boquilla dosificadora"
+      ],
+      "downloads": [
+        {
+          "label": "Hoja de datos técnicos",
+          "type": "PDF",
+          "size": "310 KB"
+        }
+      ],
+      "related": [
+        "esquiladora-lister-xtr",
+        "cuchilla-lister-4-super",
+        "kit-esquilador-profesional"
+      ]
+    },
+    {
+      "slug": "repuesto-kit-carbones",
+      "sku": "AGP-RP-6001",
+      "name": "Kit de carbones y rodamientos",
+      "brand": "OVEJA NEGRA",
+      "category": "repuestos",
+      "price": 148000,
+      "origin": "Argentina",
+      "shortDescription": "Todo lo que se gasta primero: repuesto original listo para el taller.",
+      "description": "Juego completo de carbones de grafito, rodamientos sellados, muelle de arranque y juntas. Compuesto para unidades de 1.100 W con más de 600 horas de trabajo.",
+      "image": "/media/prod-07.jpg",
+      "gallery": [
+        "/media/prod-07.jpg",
+        "/media/cat-04.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 33,
+      "highlights": [
+        "Repuesto original, no genérico",
+        "Montaje en taller propio incluido",
+        "Alarga la vida útil de la unidad motriz",
+        "Stock permanente en Buenos Aires"
+      ],
+      "specs": [
+        {
+          "label": "Contenido",
+          "value": "2 carbones · 2 rodamientos · 1 muelle · 4 juntas"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Unidades 1.100 W / 950 W"
+        },
+        {
+          "label": "Vida estimada",
+          "value": "600+ horas de trabajo"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 meses"
+        }
+      ],
+      "includes": [
+        "Juego de carbones de grafito",
+        "2 rodamientos sellados",
+        "Muelle de arranque",
+        "Junta tórica y empaque"
+      ],
+      "downloads": [
+        {
+          "label": "Instrucciones de reemplazo",
+          "type": "PDF",
+          "size": "860 KB"
+        }
+      ],
+      "related": [
+        "esquiladora-heiniger-saphir",
+        "esquiladora-lister-xtr",
+        "afiladora-oveja-negra"
+      ]
+    },
+    {
+      "slug": "afiladora-oveja-negra",
+      "sku": "AGP-AF-7001",
+      "name": "Afiladora de cuchillas Oveja Negra",
+      "brand": "OVEJA NEGRA",
+      "category": "repuestos",
+      "price": 720000,
+      "origin": "Argentina",
+      "shortDescription": "Afilado profesional en casa: disco magnético con ángulo preajustado.",
+      "description": "Recupera el filo de hasta 40 cuchillas con un solo disco. El ángulo está preajustado a 30°, de modo que no hace falta experiencia de afilado para lograr un rectificado parejo y repetible.",
+      "image": "/media/prod-08.jpg",
+      "gallery": [
+        "/media/prod-08.jpg",
+        "/media/cat-04.jpg",
+        "/media/blog-02.jpg"
+      ],
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "highlights": [
+        "Ángulo de 30° preajustado y bloqueado",
+        "Disco magnético de doble faz",
+        "Afila hasta 40 cuchillas por disco",
+        "Incluye guía y pantalla de protección"
+      ],
+      "specs": [
+        {
+          "label": "Motor",
+          "value": "280 W · 3.000 rpm"
+        },
+        {
+          "label": "Ángulo",
+          "value": "30° fijo con bloqueo"
+        },
+        {
+          "label": "Disco",
+          "value": "Magnético 150 mm, doble faz"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V"
+        },
+        {
+          "label": "Peso",
+          "value": "6,2 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "18 meses"
+        }
+      ],
+      "includes": [
+        "Base con motor",
+        "Disco magnético",
+        "Guía de ángulo",
+        "Pantalla de protección",
+        "Funda de repuesto"
+      ],
+      "downloads": [
+        {
+          "label": "Manual de uso",
+          "type": "PDF",
+          "size": "1,2 MB"
+        },
+        {
+          "label": "Guía de ángulos por cuchilla",
+          "type": "PDF",
+          "size": "540 KB"
+        }
+      ],
+      "related": [
+        "cuchilla-lister-4-super",
+        "set-tijeras-teflon-6",
+        "repuesto-kit-carbones"
+      ]
+    },
+    {
+      "slug": "kit-esquilador-profesional",
+      "sku": "AGP-KT-8001",
+      "name": "Kit esquilador profesional",
+      "brand": "LISTER",
+      "category": "kits",
+      "price": 4150000,
+      "compareAt": 4690000,
+      "origin": "Reino Unido",
+      "shortDescription": "Máquina, cuchillas, aceite y estuche: todo para arrancar la temporada.",
+      "description": "El combo más pedido por distribuidores: una LISTER XTR, juego completo de cuchillas, aceite de corte, kit de arranque y estuche rígido. Pensado para el esquilador que se muda a una estancia y necesita todo en una sola entrega.",
+      "image": "/media/prod-09.jpg",
+      "gallery": [
+        "/media/prod-09.jpg",
+        "/media/cat-05.jpg",
+        "/media/prod-01.jpg",
+        "/media/cat-01.jpg"
+      ],
+      "badge": "Más vendido",
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 27,
+      "highlights": [
+        "Ahorro del 11 % frente a comprar por separado",
+        "Entrega en 48 h en todo el país",
+        "Incluye estuche rígido y manga de resorte",
+        "Soporte de armado por WhatsApp con un técnico"
+      ],
+      "specs": [
+        {
+          "label": "Máquina",
+          "value": "LISTER XTR 1.100 W"
+        },
+        {
+          "label": "Cuchillas",
+          "value": "4-super + 10 + peines"
+        },
+        {
+          "label": "Lubricante",
+          "value": "500 ml"
+        },
+        {
+          "label": "Transporte",
+          "value": "Estuche rígido con ruedas"
+        },
+        {
+          "label": "Garantía",
+          "value": "24 meses oficial"
+        }
+      ],
+      "includes": [
+        "Esquiladora LISTER XTR",
+        "Manga de resorte de 8 m",
+        "2 cuchillas y juego de peines",
+        "Aceite de corte 500 ml",
+        "Kit de arranque completo",
+        "Estuche rígido con ruedas"
+      ],
+      "downloads": [
+        {
+          "label": "Manual del kit",
+          "type": "PDF",
+          "size": "2,8 MB"
+        },
+        {
+          "label": "Checklist de temporada",
+          "type": "PDF",
+          "size": "430 KB"
+        }
+      ],
+      "related": [
+        "esquiladora-lister-xtr",
+        "cuchilla-lister-4-super",
+        "aceite-corte-heiniger-500"
+      ]
+    }
+  ]
+}

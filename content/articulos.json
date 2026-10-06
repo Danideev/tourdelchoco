@@ -1,0 +1,275 @@
+{
+  "posts": [
+    {
+      "slug": "elegir-primera-maquina-de-esquilar",
+      "title": "Guía completa: cómo elegir tu primera máquina de esquilar",
+      "category": "Guía",
+      "readTime": "6 min",
+      "date": "18 sep 2026",
+      "excerpt": "Potencia, rpm, cable o batería, cuchillas compatibles: las seis decisiones que separan una buena compra de dos temporadas de frustración.",
+      "image": "/media/blog-01.jpg"
+    },
+    {
+      "slug": "mantenimiento-de-cuchillas",
+      "title": "Mantenimiento de cuchillas: 7 errores comunes",
+      "category": "Mantenimiento",
+      "readTime": "4 min",
+      "date": "04 sep 2026",
+      "excerpt": "Lavar con agua, afilar con ángulo incorrecto o guardarlas con lanamina. Qué rompe el filo antes de tiempo y cómo evitarlo.",
+      "image": "/media/blog-02.jpg"
+    },
+    {
+      "slug": "esquilado-de-alpacas",
+      "title": "Esquilado de alpacas: técnicas y equipamiento",
+      "category": "Especial",
+      "readTime": "6 min",
+      "date": "21 ago 2026",
+      "excerpt": "Velocidad, ángulo de ataque y manejo del animal: la pauta para esquilar alpacas sin romper la fibra ni al operador.",
+      "image": "/media/blog-03.jpg"
+    }
+  ],
+  "bodies": {
+    "elegir-primera-maquina-de-esquilar": [
+      {
+        "type": "p",
+        "text": "La primera máquina de esquilar se compra con la expectativa de usarla quince temporadas. La realidad es que la mayoría de las compras se deciden por dos datos incompletos: cuánto cuesta y cuántos caballos tiene el de la publicación. Acá van las seis decisiones que de verdad separan una herramienta que labura de una que termina en el mismo galpón, quieta, antes de la segunda esquila."
+      },
+      {
+        "type": "p",
+        "text": "Lo primero es definir el uso: ¿esquilás tu propia hacienda, trabajás por contrato en fincas ajenas o comprás para revender? El volumen, la distancia entre potreros y si hay luz trifásica en el lugar cambian la respuesta entera."
+      },
+      {
+        "type": "h2",
+        "text": "1. Potencia: no es el número más importante"
+      },
+      {
+        "type": "p",
+        "text": "En catálogo todas las máquinas son potentes. Lo que importa es el torque sostenido a 2.600 rpm con una lana húmeda y el animal encima. Una máquina de 1.100 W bien diseñada le gana a una de 1.500 W con rodamientos chicos, porque la segunda pierde revoluciones justo cuando más las necesitás."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Para 50 a 150 ovejas por temporada: 900–1.100 W alcanza, si el motor es de inducción.",
+          "Más de 200 cabezas o trabajo por contrato: priorizá torque sostenido y refrigeración por aire.",
+          "Preguntá por el rango de trabajo real: rpm bajo carga, no de catálogo."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Cable, batería o neumático"
+      },
+      {
+        "type": "p",
+        "text": "El cable eléctrico es liviano, barato de mantener y no perdón: te obliga a tener un punto de luz razonable. La batería sirve para arreos, remates y lugares sin energía, pero agrega 700 g en la mano y dos horas de autonomía real. El motor neumático, con manguera de 15 m, es el rey del campo sin luz: silencioso, liviano en la mano y con mantenimiento de una limpieza por semana."
+      },
+      {
+        "type": "note",
+        "title": "Regla del taller",
+        "text": "Si no podés decidir, comprá eléctrica para la casilla y dejá la neumática para el campo. Son complementarias, no rivales: casi ningún esquilador profesional vive con una sola."
+      },
+      {
+        "type": "h2",
+        "text": "3. Velocidad no es lo mismo que corte"
+      },
+      {
+        "type": "p",
+        "text": "Las rpm dicen cuántas veces por segundo la cuchilla pasa sobre el peine; el corte depende del filo, del ángulo y del ajuste entre cuchilla y peine. Una máquina rápida con filo mal afilado arranca lana, y arrancar lana es perder lana, irritar al animal y cansar al operador."
+      },
+      {
+        "type": "quote",
+        "text": "Cambié de máquina dos veces antes de entender que el problema era mi afilado. Ajusté el ángulo y la vieja volvió a cortar como nueva.",
+        "cite": "Marcelo Duarte, esquilador · Tandil"
+      },
+      {
+        "type": "h2",
+        "text": "4. Cuchillas compatibles y disponibilidad de repuestos"
+      },
+      {
+        "type": "p",
+        "text": "Antes de comprar, verificá tres cosas: qué cuchilla y qué peine usa la máquina, si el repuesto se consigue en el país y cuánto sale. Una máquina barata con repuesto importado a 90 días convierte cualquier urgencia en una temporada perdida."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Cuchilla estándar de 4 dientes y peines de 13, 15 y 20 mm cubren el 90 % del trabajo.",
+          "Que haya juego de arrastre (drive, muelle y tornillos) en stock local.",
+          "Precio publicado de cuchillas y peines: es el costo real por esquila, no el de la máquina."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "5. Servicio técnico y garantía de fábrica"
+      },
+      {
+        "type": "p",
+        "text": "Preguntá quién la repara y en cuánto tiempo. Taller propio con técnicos certificados por la marca es la diferencia entre una garantía escrita y una garantía que se resuelve. También conviene confirmar que el equipo venga con manual en español, cable largo y maletín: es el detalle que decide cuánto tardás en tenerla operativa el primer día."
+      },
+      {
+        "type": "h2",
+        "text": "6. El presupuesto real"
+      },
+      {
+        "type": "p",
+        "text": "El precio de lista es solo una parte. Sumá el juego de cuchillas del primer año, el aceite, un peine de repuesto, la manga si trabajás a distancia y, sobre todo, el tiempo de alguien que sepa usarla. Comprar la máquina más barata para pagar dos temporadas de aprendizaje sale más caro que comprar bien, una vez."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Máquina + primer juego de filos y peines.",
+          "Aceite de cuchillas y limpiador.",
+          "Accesorios de manga y gancho si el trabajo es a campo.",
+          "Un curso o dos días con un esquilador experimentado."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Si querés, pasanos tu cantidad de cabezas, la provincia y el tipo de uso, y te armamos la configuración con precio, envío y plazo en dos minutos. Sin registro y sin compromiso."
+      }
+    ],
+    "mantenimiento-de-cuchillas": [
+      {
+        "type": "p",
+        "text": "Un filo bien mantenido dura entre tres y cinco veces más que uno abandonado. En el taller vemos los mismos siete errores una y otra vez, y siempre terminan en la misma frase: “la cuchilla esta no corta”. Casi ninguna es culpa de la cuchilla."
+      },
+      {
+        "type": "h2",
+        "text": "1. Lavarlas con agua y dejarlas secar al aire"
+      },
+      {
+        "type": "p",
+        "text": "El agua y la lana húmeda son la combinación perfecta para la herrumbre, y la herrumbre entra por la espalda del diente donde después no llega ningún afilado. Se limpian con solvente o limpiador de cuchillas, se secan con trapo y se guardan con una gota de aceite. Nunca en la herramienta mojada del cajón."
+      },
+      {
+        "type": "h2",
+        "text": "2. Afilar con el ángulo “de ojo”"
+      },
+      {
+        "type": "p",
+        "text": "Cada cuchilla tiene un ángulo de fábrica; si lo modificás, el filo pasa a trabajar de costado y se desgasta en días. La piedra debe moverse sobre la cara plana, sin levantar la muñeca, y la presión es constante y liviana. El filo se siente: si deja un borde bruñido en vez de afilado, es que estás redondeando la punta."
+      },
+      {
+        "type": "h2",
+        "text": "3. Guardarlas con lanamina"
+      },
+      {
+        "type": "p",
+        "text": "Lana sucia en el estuche significa lanamina ácida, humedad y cortes de más. Las cuchillas se guardan limpias, secas y separadas con un papel o en su estuche individual. Lo mismo vale para los peines: se sacan de la máquina, se limpian y se guardan con el mismo cuidado."
+      },
+      {
+        "type": "h2",
+        "text": "4. Usar la piedra sin lubricar"
+      },
+      {
+        "type": "p",
+        "text": "La piedra seca traba el metal y genera calor, y el calor tiñe el acero (el famoso azul de temple). Con unas gotas de aceite de piedra o agua con jabón, el corte es parejo y la cuchilla no pierde temple. Es el minuto de mantenimiento que más alarga la vida del filo."
+      },
+      {
+        "type": "h2",
+        "text": "5. Mezclar cuchillas de distintos equipos"
+      },
+      {
+        "type": "p",
+        "text": "No todas las cuchillas son iguales: la altura de los dientes y la posición del orificio cambian entre marcas. Mezclarlas funciona… hasta que el arrastre las desalinea y empiezan a golpear. Etiquetá cada juego con el equipo al que pertenece y verificalo antes de cada temporada."
+      },
+      {
+        "type": "h2",
+        "text": "6. Esperar a que el filo “haga filo”"
+      },
+      {
+        "type": "p",
+        "text": "Cuando la cuchilla ya no entra, llevaste dos esquilas de más. El corte se mide en lana cortada por hora y en esfuerzo del operador: si tenés que apretar para que entre, es tarde. Afilar por tiempo (cada 40 a 60 cabezas, según dureza del pelo) es más barato que afilar por urgencia."
+      },
+      {
+        "type": "h2",
+        "text": "7. Olvidar peines y ajuste"
+      },
+      {
+        "type": "p",
+        "text": "El peine es la mitad del corte. Un peine con dientes doblados arranca lana aunque la cuchilla esté perfecta, y el ajuste entre cuchilla y peine (esa “caricia” que se siente al montarla) determina si corta o rasca. Revisalo con lupa cada vez que cambies el filo."
+      },
+      {
+        "type": "note",
+        "title": "Rutina de 4 minutos",
+        "text": "Soplar la lana, limpiar con solvente, revisar dientes del peine, ajuste fino de cuchilla, gota de aceite. Hacerla al terminar cada jornada es todo el mantenimiento que la mayoría necesita."
+      },
+      {
+        "type": "p",
+        "text": "En el taller afilamos con muela y control de ángulo, y te devolvemos el juego marcado con la fecha de afilado. Si preferís hacerlo vos, te mostramos el ángulo en dos minutos por WhatsApp."
+      }
+    ],
+    "esquilado-de-alpacas": [
+      {
+        "type": "p",
+        "text": "Esquilar alpaca no es esquilar oveja con otra cara. La fibra es más fina, el animal es más sensible al contacto y cada centímetro mal cortado se paga en precio de la lana. La técnica se aprende rápido; la paciencia, no tanto."
+      },
+      {
+        "type": "h2",
+        "text": "Preparación: el momento define el resultado"
+      },
+      {
+        "type": "p",
+        "text": "La alpaca se esquila una vez por año, en otoño o invierno, antes del calor y sin lluvia reciente. La fibra debe estar seca y sin tierra: la suciedad enroscada en la borra es lo que más afila las cuchillas en el rubro. Un ayuno corto y la separación por categorías (cria, adulto, reproductor) ordenan el trabajo y evitan estrés."
+      },
+      {
+        "type": "h2",
+        "text": "Equipo: qué cambia respecto del ovejo"
+      },
+      {
+        "type": "p",
+        "text": "Se usa la misma máquina de esquilar, con una diferencia práctica: cuchillas con dientes más finos y peine angosto para no empujar la fibra fina, y ajuste un punto más suave. Muchos profesionales bajan un punto la tensión de la cuchilla y trabajan con revoluciones ligeramente menores para tener más control en el cuello y la cabeza."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Cuchilla fina (4 dientes) con buen filo recién salido de la piedra.",
+          "Peine de 13 mm para el cuerpo, de 10–11 mm en cabeza y patas.",
+          "Manga corta y gancho: el animal tira hacia atrás más que la oveja.",
+          "Superficie antideslizante y pared sin objetos que reten la fibra."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Técnica: orden, ángulo y piel estirada"
+      },
+      {
+        "type": "p",
+        "text": "El orden clásico es abrir el vientre, bajar por las patas, limpiar la colita, subir por los costados, cerrar el lomo y terminar con cuello y cabeza. Cada tajada va pegada a la piel, con la mano libre estirando el pliegue; la máquina “corta sola” cuando el ángulo es el correcto, sin empujar hacia abajo."
+      },
+      {
+        "type": "quote",
+        "text": "Con la alpaca no se gana por velocidad, se gana por cantidad de pasada limpia. El que apura, corta doble fila y después no puede peinarla.",
+        "cite": "Nadia Coronel · Cabaña Los Ñandúes, San Luis"
+      },
+      {
+        "type": "h2",
+        "text": "Errores que rompen la fibra"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Cortar alto “por las dudas”: perdés gramos por animal y todo el valor del segundo corte.",
+          "Cortar bajo (bajo la piel): lastimás al animal y dejás marca en el cuero.",
+          "Tajadas superpuestas: dejan “pasadas” visibles que ningún peinado oculta.",
+          "Arrancar en vez de cortar: el filo apagado estira la fibra y rompe la punta."
+        ]
+      },
+      {
+        "type": "note",
+        "title": "Control rápido",
+        "text": "Al terminar cada animal, revisá la lana cortada: si ves mechones con dos alturas o puntas partidas, la cuchilla pedía afilado hace rato. La calidad se juzga en la mesa, no en el tiempo del reloj."
+      },
+      {
+        "type": "h2",
+        "text": "Operador, ritmo y descanso"
+      },
+      {
+        "type": "p",
+        "text": "Un operador buenísimo rinde 60 a 80 alpacas por jornada con calidad pareja. Más allá de eso, la postura falla y con ella el corte. Se trabaja con la espalda recta, la muñeca neutra y cambios de posición cada veinte minutos. La máquina se lubrica por goteo durante toda la jornada: con fibra fina, la falta de aceite se nota en el primer tercio de la tanda."
+      },
+      {
+        "type": "p",
+        "text": "Si estás armando el equipo para la próxima temporada, te pasamos la lista de material completo (máquina, filos, peines, manga y repuestos) con precios, envío a tu provincia y plazo de entrega."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "testimonials": [
+    {
+      "name": "Marcelo Duarte",
+      "role": "Esquilador profesional",
+      "company": "Estancia La Verbena · Tandil",
+      "quote": "Trabajo tres meses por temporada con la XTR y nunca me dejó tirado. El filo de las cuchillas aguanta la jornada completa y cuando los repuestos llegan, llegan.",
+      "avatar": "/media/portrait-01.jpg"
+    },
+    {
+      "name": "Federico Aguirre",
+      "role": "Distribuidor zonal",
+      "company": "Agrícola Sur · Bahía Blanca",
+      "quote": "Me dio exclusividad por zona y margen real. Puedo competir con el corralón de enfrente porque el producto y el respaldo son mejores.",
+      "avatar": "/media/portrait-02.jpg"
+    },
+    {
+      "name": "Jorge Benedetti",
+      "role": "Responsable de servicio técnico",
+      "company": "Veterinaria El Ceibo · Rafaela",
+      "quote": "Necesitábamos repuestos sin vueltas. A los dos días tenía los carbones en el taller, con manual y factura. Eso en este rubro no es normal.",
+      "avatar": "/media/portrait-04.jpg"
+    },
+    {
+      "name": "Nadia Coronel",
+      "role": "Productora ganadera",
+      "company": "Cabaña Los Ñandúes · San Luis",
+      "quote": "Compré la primera máquina con asesoramiento por WhatsApp. Me explicaron cuánto equipo necesitaba realmente y no me vendieron de más.",
+      "avatar": "/media/portrait-03.jpg"
+    },
+    {
+      "name": "Ramiro Ferreyra",
+      "role": "Esquilador y contratista",
+      "company": "Cooperativa del Oeste · General Pico",
+      "quote": "El kit entero me llegó armado y probado. Cero tiempo muerto al inicio de la temporada: eso es lo que más vale.",
+      "avatar": "/media/portrait-05.jpg"
+    }
+  ]
+}

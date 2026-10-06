@@ -1,0 +1,251 @@
+{
+  "stats": [
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "años importando equipo de esquilado"
+    },
+    {
+      "value": 48,
+      "suffix": "hs",
+      "label": "entrega promedio a todo el país"
+    },
+    {
+      "value": 1240,
+      "suffix": "+",
+      "label": "estancias y talleres abastecidos"
+    },
+    {
+      "value": 96,
+      "suffix": "%",
+      "label": "de pedidos despachados desde stock"
+    }
+  ],
+  "trustBadges": [
+    "Importador oficial",
+    "Garantía de fábrica",
+    "Envíos a todo el país",
+    "Servicio técnico propio",
+    "Factura A y B"
+  ],
+  "benefits": [
+    {
+      "id": "importacion",
+      "title": "Importación directa",
+      "description": "Compramos en fábrica a EE.UU., China y Taiwán. Sin distribuidores intermedios: el precio que ves es el precio que se firma.",
+      "icon": "container",
+      "span": "lg:col-span-2 lg:row-span-2",
+      "metric": "0 intermediarios"
+    },
+    {
+      "id": "garantia",
+      "title": "Garantía y servicio técnico oficial",
+      "description": "Taller propio con técnicos certificados por las marcas que representamos.",
+      "icon": "wrench",
+      "span": "lg:col-span-1",
+      "metric": "24 meses"
+    },
+    {
+      "id": "stock",
+      "title": "Stock permanente en Buenos Aires",
+      "description": "Depósito propio: lo que publicamos está en la góndola.",
+      "icon": "warehouse",
+      "span": "lg:col-span-1",
+      "metric": "96 % en stock"
+    },
+    {
+      "id": "asesoramiento",
+      "title": "Asesoramiento profesional 1:1",
+      "description": "Un técnico te atiende por WhatsApp antes y después de la compra. Nada de call center.",
+      "icon": "messages",
+      "span": "lg:col-span-1",
+      "metric": "< 2 hs de respuesta"
+    },
+    {
+      "id": "envios",
+      "title": "Envíos a todo el país en 48 hs",
+      "description": "Retiro en O'Higgins 4525 o envío con seguimiento a las 24 provincias.",
+      "icon": "truck",
+      "span": "lg:col-span-1",
+      "metric": "48 hs"
+    },
+    {
+      "id": "experiencia",
+      "title": "+10 años en el rubro",
+      "description": "Desde 2014 equipando esquiladores profesionales, distribuidores rurales y clínicas veterinarias.",
+      "icon": "badge",
+      "span": "lg:col-span-4",
+      "metric": "desde 2014"
+    }
+  ],
+  "provinces": [
+    {
+      "id": "caba",
+      "name": "CABA",
+      "cost": 0,
+      "days": 1,
+      "zone": "AMBA"
+    },
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "cost": 8500,
+      "days": 1,
+      "zone": "Pampeana"
+    },
+    {
+      "id": "santa-fe",
+      "name": "Santa Fe",
+      "cost": 14200,
+      "days": 2,
+      "zone": "Centro"
+    },
+    {
+      "id": "cordoba",
+      "name": "Córdoba",
+      "cost": 15900,
+      "days": 2,
+      "zone": "Centro"
+    },
+    {
+      "id": "mendoza",
+      "name": "Mendoza",
+      "cost": 21400,
+      "days": 3,
+      "zone": "Cuyo"
+    },
+    {
+      "id": "neuquen",
+      "name": "Neuquén",
+      "cost": 24800,
+      "days": 3,
+      "zone": "Patagonia"
+    },
+    {
+      "id": "rio-negro",
+      "name": "Río Negro",
+      "cost": 25600,
+      "days": 3,
+      "zone": "Patagonia"
+    },
+    {
+      "id": "chubut",
+      "name": "Chubut",
+      "cost": 28900,
+      "days": 4,
+      "zone": "Patagonia"
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz",
+      "cost": 32400,
+      "days": 5,
+      "zone": "Patagonia"
+    },
+    {
+      "id": "tierra-del-fuego",
+      "name": "Tierra del Fuego",
+      "cost": 36800,
+      "days": 6,
+      "zone": "Patagonia"
+    },
+    {
+      "id": "salta",
+      "name": "Salta",
+      "cost": 26700,
+      "days": 4,
+      "zone": "NOA"
+    },
+    {
+      "id": "tucuman",
+      "name": "Tucumán",
+      "cost": 24300,
+      "days": 4,
+      "zone": "NOA"
+    },
+    {
+      "id": "santiago-del-estero",
+      "name": "Santiago del Estero",
+      "cost": 23100,
+      "days": 4,
+      "zone": "NOA"
+    },
+    {
+      "id": "jujuy",
+      "name": "Jujuy",
+      "cost": 29500,
+      "days": 5,
+      "zone": "NOA"
+    },
+    {
+      "id": "corrientes",
+      "name": "Corrientes",
+      "cost": 21800,
+      "days": 3,
+      "zone": "NEA"
+    },
+    {
+      "id": "misiones",
+      "name": "Misiones",
+      "cost": 24900,
+      "days": 4,
+      "zone": "NEA"
+    },
+    {
+      "id": "chaco",
+      "name": "Chaco",
+      "cost": 22600,
+      "days": 4,
+      "zone": "NEA"
+    },
+    {
+      "id": "formosa",
+      "name": "Formosa",
+      "cost": 25100,
+      "days": 5,
+      "zone": "NEA"
+    },
+    {
+      "id": "entre-rios",
+      "name": "Entre Ríos",
+      "cost": 16700,
+      "days": 2,
+      "zone": "Litoral"
+    },
+    {
+      "id": "la-plata",
+      "name": "La Pampa",
+      "cost": 19400,
+      "days": 3,
+      "zone": "Pampeana"
+    },
+    {
+      "id": "san-juan",
+      "name": "San Juan",
+      "cost": 22300,
+      "days": 3,
+      "zone": "Cuyo"
+    },
+    {
+      "id": "san-luis",
+      "name": "San Luis",
+      "cost": 18600,
+      "days": 3,
+      "zone": "Cuyo"
+    },
+    {
+      "id": "catamarca",
+      "name": "Catamarca",
+      "cost": 24700,
+      "days": 4,
+      "zone": "NOA"
+    },
+    {
+      "id": "la-rioja",
+      "name": "La Rioja",
+      "cost": 23400,
+      "days": 4,
+      "zone": "NOA"
+    }
+  ]
+}

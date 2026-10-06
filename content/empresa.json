@@ -1,0 +1,158 @@
+{
+  "company": {
+    "name": "AGROPYME S.R.L.",
+    "wordmark": "AGROPYME",
+    "tagline": "Importación directa de maquinaria para esquilado, corte y rasurado animal.",
+    "legal": "AGROPYME S.R.L. · CUIT 30-71234567-8",
+    "address": "O'Higgins 4525, Villa Devoto, CABA",
+    "addressShort": "O'Higgins 4525, CABA",
+    "phone": "(011) 4519-2958",
+    "whatsapp": "+54 9 11 5012-3762",
+    "email": "ventas@agropyme.com.ar",
+    "hours": "Lun a Vie 9–13 y 14–17 · Sáb 10–13",
+    "founded": 2014,
+    "whatsappGreeting": "Hola AGROPYME, quiero una cotización"
+  },
+  "navLinks": [
+    {
+      "label": "Productos",
+      "href": "/catalogo"
+    },
+    {
+      "label": "Marcas",
+      "href": "/#marcas"
+    },
+    {
+      "label": "Distribuidores",
+      "href": "/#distribuidores"
+    },
+    {
+      "label": "Nosotros",
+      "href": "/#nosotros"
+    },
+    {
+      "label": "Contacto",
+      "href": "/#contacto"
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/agropyme",
+      "icon": "instagram"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://facebook.com/agropyme",
+      "icon": "facebook"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://youtube.com/@agropyme",
+      "icon": "youtube"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/company/agropyme",
+      "icon": "linkedin"
+    }
+  ],
+  "footerColumns": [
+    {
+      "title": "Productos",
+      "links": [
+        {
+          "label": "Máquinas de esquilar",
+          "href": "/catalogo?categoria=esquiladoras"
+        },
+        {
+          "label": "Tijeras y cuchillas",
+          "href": "/catalogo?categoria=tijeras-cuchillas"
+        },
+        {
+          "label": "Lubricantes y aceites",
+          "href": "/catalogo?categoria=lubricantes"
+        },
+        {
+          "label": "Repuestos y accesorios",
+          "href": "/catalogo?categoria=repuestos"
+        },
+        {
+          "label": "Kits profesionales",
+          "href": "/catalogo?categoria=kits"
+        }
+      ]
+    },
+    {
+      "title": "Empresa",
+      "links": [
+        {
+          "label": "Nosotros",
+          "href": "/#nosotros"
+        },
+        {
+          "label": "Distribuidores",
+          "href": "/#distribuidores"
+        },
+        {
+          "label": "Marcas que importamos",
+          "href": "/#marcas"
+        },
+        {
+          "label": "Novedades",
+          "href": "/recursos"
+        },
+        {
+          "label": "Trabajá con nosotros",
+          "href": "/#contacto"
+        }
+      ]
+    },
+    {
+      "title": "Soporte",
+      "links": [
+        {
+          "label": "Servicio técnico",
+          "href": "/#nosotros"
+        },
+        {
+          "label": "Envíos y cobertura",
+          "href": "/#cotizador"
+        },
+        {
+          "label": "Manuales y descargas",
+          "href": "/catalogo"
+        },
+        {
+          "label": "Garantía oficial",
+          "href": "/#por-que"
+        },
+        {
+          "label": "Preguntas frecuentes",
+          "href": "/#contacto"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "label": "Términos y condiciones",
+          "href": "/#contacto"
+        },
+        {
+          "label": "Política de privacidad",
+          "href": "/#contacto"
+        },
+        {
+          "label": "Política de devolución",
+          "href": "/#contacto"
+        },
+        {
+          "label": "Defensa del consumidor",
+          "href": "/#contacto"
+        }
+      ]
+    }
+  ]
+}
