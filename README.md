@@ -170,9 +170,11 @@ node scripts/label-shot.mjs <src> <dest> <label>   # captura con etiqueta (para 
 
 ## Deploy
 
+**Demo en vivo: https://agropyme.vercel.app** — Vercel, build automático en cada push a `main` (repo `Danideev/tourdelchoco` conectado al proyecto `agropyme`).
+
 ```bash
 npm run build && npm start     # verificación local
-vercel                         # o push a un repo conectado en Vercel
+vercel                         # deploy preview / --prod para producción
 ```
 
 Sin variables de entorno. Si se conecta el cotizador a un backend, agregar `QUOTE_API_URL` y `WHATSAPP_NUMBER` a `.env.local`.
